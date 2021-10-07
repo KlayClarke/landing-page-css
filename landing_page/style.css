@@ -1,0 +1,100 @@
+body {
+    gap: 100px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerlogo {
+    margin-right: 700px;
+    display: flex;
+}
+
+ul {
+    gap: 20px;
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftc2 {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.rightc2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.quotationAuthor {
+    padding: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.container5 {
+    gap: 30px;
+    display: flex;
+}
+
+.leftc5 {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    display: flex;
+}
+
+.container6 {
+    padding: 20px;
+    display: flex;
+    
+}
