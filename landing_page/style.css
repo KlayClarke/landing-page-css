@@ -52,6 +52,7 @@ a {
 
 .leftc2 {   
     gap: 15px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,6 +72,7 @@ a {
 
 .rightc2 {
     margin-left: 100px;
+    margin-right: 100px;
     flex: 1;
     flex-direction: column;
     justify-content: center;
@@ -82,6 +84,8 @@ a {
 }
 
 .info {
+    margin-top: -100px;
+    margin-bottom: 50px;
     color: #1f2937;
     font-size: 40px;
     font-weight: bolder;
@@ -90,14 +94,29 @@ a {
 }
 
 .images {
-    padding: 50px;
-    border-radius: 50px;
+    gap: 50px;
     display: flex;
     flex-direction: row;
+    align-items: space-between;
     text-align: center;
 }
 
+figcaption {
+    font-size:medium;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
+}
+
+.imageandcaption {
+    padding: 40px;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
 .container4 {
+    margin-top: -100px;
     width: 100%;
     background-color: #e5e7eb;
     padding: 100px;
@@ -108,7 +127,12 @@ a {
     flex-direction: column;
 }
 
+.quotation {
+    margin-top: -50px;
+}
+
 .quotationAuthor {
+    margin-bottom: -100px;
     font-weight: bold;  
     font-style: normal;
     padding: 30px;
@@ -118,39 +142,51 @@ a {
 }
 
 .container5 {
-    border-radius: 100px;
-    height: 200px;
-    width: 500px;
+    border-radius: 10px;
+    padding: 100px;
+    height: 10px;
+    width: 700px;
     margin-top: -50px;
     margin-bottom: 100px;
     background-color: #3882f6;
-    gap: 30px;
+    color:white;
     display: flex;
     align-items: center;
 }
 
 .leftc5 {
-    gap: 20px;
     display: flex;
-    flex-direction: column;
     flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.click {
+    font-size: 24px;
 }
 
 .rightc5 {
-    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .signup {
     background-color: #3882f6;
-    margin-bottom: 120px;
     display: flex;
-    text-align: center;
     justify-content: center;
     align-items: center;
 }
 
 .one {
-    border-radius: 15%;
+    border-radius: 10px;
+    border-width: 3px;
     width: 120px;
     height: 35px;
     font-weight: bolder;
@@ -158,10 +194,14 @@ a {
 }
 
 .two {
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 10px;
     width: 100px;
     height: 40px;    
     font-weight: bolder;
-    border-color:#F9FAF8;
+    font-size: 24px;
     color: white;
 }
 
@@ -178,4 +218,9 @@ a {
     text-align: center; 
     justify-content: center;
     align-items: center;
+}
+
+.footertext {
+    margin-top: auto;
+    display: flex;
 }
